@@ -1,7 +1,7 @@
 
 A = [1,3,5,7];
 B = [2,4,6,8];
-C = zeros(1, length(A)); 
+C = zeros(1, length(A)* 2 );
 j = 1;
 for i = 1:length(A)
     C(j) = A(i);
